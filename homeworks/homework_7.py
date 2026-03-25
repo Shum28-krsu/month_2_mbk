@@ -1,5 +1,5 @@
 import sqlite3
-con = sqlite3.connect("library.db")
+con = sqlite3.connect("../library.db")
 cursor = con.cursor()
 
 def create_table():
