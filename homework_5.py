@@ -25,13 +25,13 @@ class Distance:
         new_value = total / Distance.conversion_dict[self.unit]
         return Distance(new_value, self.unit)
 
-    d1 = Distance(10, 'm')
-    d2 = Distance(2, 'km')
+d1 = Distance(10, 'm')
+d2 = Distance(2, 'km')
 
-    print(d1)
-    print(d2)
+print(d1)
+print(d2)
 
-    print(d1 + d2)
-    print(d2 + d1)
+print(d1 + d2)
+print(d2 + d1)
 
-    print(d2 - d1)
+print(d2 - d1)
